@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: flex-start;
+    margin: auto;
+    min-height: 100vh;
+    width: 80%;
+    
+}
+
+header {
+    padding: 35px;
+    background-color: rgb(26, 44, 102);
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    background-color: rgb(43, 46, 46);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav a{
+    color: whitesmoke;
+    margin: 0px 20px;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(26, 44, 102);
+    padding: 35px;
+    color:whitesmoke;
+    
+}
+
+hr {
+    background-color: rgb(26, 44, 102);
+    color: rgb(26, 44, 102);
+    justify-content: center;
+    height: 5px;
+    width: 80%;
+}
+
+.aboutMe{
+    padding: 55px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.aboutMeCard {
+    margin-left: 30px;
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutMeCard h1{
+    color: rgb(43, 46, 46);
+    justify-content: center;
+    width: 90%;
+}
+
+.aboutMeCard p{
+    color: rgb(43, 46, 46);
+    width: 90%;
+    justify-content: center;
+}
+
+.aboutMeTitle{
+    background-color: rgb(26, 44, 102, .9);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutMeTitle h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.aboutMe img{
+    margin: 0;
+    position: relative;
+    width: 25%;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+}
+
+.cardMain {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cardMain img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.cardMain a{
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    margin: 0;
+    position: relative;
+    width: 25%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.card a{
+    display: flex;
+    width: 100%;
+}
+
+.overlay {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    margin: 0 0;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    top: 40%;
+    font-weight: bold;
+}
+
+.projects{
+    background-color: whitesmoke;
+    padding: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.projectHeader{
+    color: rgb(43, 46, 46);
+    width: 70%;
+    padding-left: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.projectHeader h1{
+    font-size: 1.3vw;
+    contain: content;
+}
+
+.projectHeader p{
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .card{
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .card a{
+        width: 100%;
+    }
+
+    .projectHeader{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .projectHeader h1{
+        font-size: 3vw;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    body{
+        width: 100%;
+    }
+}
