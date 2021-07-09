@@ -145,6 +145,31 @@ hr {
     width: 100%;
 }
 
+.contactTitle{
+    background-color: rgb(26, 44, 102, .9);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactTitle h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contactInfo{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    color: rgb(43, 46, 46);
+}
+
+.contactInfo h1{
+    text-align: center;
+    margin-left: 100px;
+}
+
 .overlay {
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.9);
@@ -171,6 +196,19 @@ hr {
     padding-left: 10px;
     justify-content: center;
     text-align: center;
+}
+
+.projectsTitle{
+    background-color: rgb(26, 44, 102, .9);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectsTitle h1 {
+    text-align: center;
+    color: whitesmoke;
 }
 
 .projectHeader h1{
